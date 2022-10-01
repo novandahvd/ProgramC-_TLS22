@@ -1,0 +1,19 @@
+//Alat Konversi Suhu
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    float Suhu, Fahrenheit, Reamur, Kelvin;
+    cout<<"Masukkan suhu Celsius: ";
+    cin>>Suhu;
+    
+    Fahrenheit = (Suhu*9/5)+32;
+    Reamur = Suhu*4/5;
+    Kelvin = Suhu+273;
+    
+    cout<<"Suhu dalam Fahrenheit: ";cout<<Fahrenheit<<endl;
+    cout<<"Suhu dalam Reamur: ";cout<<Reamur<<endl;
+    cout<<"Suhu dalam Kelvin: ";cout<<Kelvin<<endl;
+    return 0;
+}
